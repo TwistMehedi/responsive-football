@@ -1,0 +1,60 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*===============
+Header Area CSS
+================*/
+.header-area{
+    background-color: #2D25A0;
+    height: 563px;
+    margin-bottom: 70px;
+ }
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.blog h1{
+    color: #fff;
+    font-size: 64px;
+    margin-left: 155px;
+    margin-top: 191px;
+     margin-bottom: 24px;
+}
+.blog a{
+    color: #fff;margin-left: 155px;
+    font-size: 16px;
+    background-color: #E02C6D;
+    width: 156px;
+    padding: 5px 20px;
+    text-decoration: none;
+   }
+.blogs div img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 96px;
+    margin-right: 160px;
+}
+/*===================
+Hero Area CSS
+===================*/
+.players{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 31px;
+ }
+.player{
+    width: 329;
+    margin-bottom: 30px;
+        width: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        
+  }
+.player-img{
+    width: 300px;
+    height: 256px;
+    margin-top: 10px;
+}
