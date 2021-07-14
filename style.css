@@ -7,26 +7,26 @@ body{
 .container{
     width: 1000px;
     margin: 0 auto;
-}
+ }
 /*===============
 Header Area CSS
 ================*/
 .header-area{
     background-color: #2D25A0;
-    height: 563px;
-    margin-bottom: 70px;
- }
+    margin-bottom: 50px;
+    margin-top: -90px;
+    padding-bottom: 100px;
+  }
 .blogs{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-}
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
 .blog h1{
     color: #fff;
     font-size: 64px;
     margin-left: 150px;
     margin-top: 150px;
-     margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .blog a{
     color: #fff;margin-left: 155px;
@@ -36,11 +36,14 @@ Header Area CSS
     padding: 5px 20px;
     text-decoration: none;
    }
+   .blog a i{
+       margin-left: 7px;
+   }
 .blogs div img{
-    width: 556.01px;
-    height: 438px;
+    width: 600.01px;
+    height: 460px;
     margin-top: 96px;
-    margin-left: 100px;
+    margin-left: 30px;
 }
 /*===================
 Hero Area CSS
@@ -50,18 +53,19 @@ Hero Area CSS
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
- }
+}
 .player{ 
-     align-items: center;
-     width: 330px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    align-items: center;
+    width: 330px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
   }
 .player-img{
     width: 300px;
     height: 256px;
-    margin-left: 20px;
-    margin-right: 15px;
-    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 15px;
 }
 .player-info{
     text-align: left;
@@ -89,12 +93,24 @@ Hero Area CSS
     flex-direction: column;
     align-items: center;
 }
-.footer-area{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .copyright{
+    margin-top: 0;
+    margin-left: 35px;
     font-size: 18px;
     color: #000;
 }
+ .footer-area a{
+     margin: 5px; 
+     padding: 4px 7px;
+     background-color: #969BAB;
+     border-radius: 50%;
+     border: 0px solid;
+}
+.footer-area img{
+    margin-left: 20px;
+    width: 483.87px;
+ }
+ .footer-area a i{
+     margin-left: 1px;
+   }
+
