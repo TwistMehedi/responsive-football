@@ -1,3 +1,6 @@
+/*=======
+Body CSS
+========*/
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -37,7 +40,7 @@ Header Area CSS
     width: 556.01px;
     height: 438px;
     margin-top: 96px;
-    margin-right: 160px;
+    margin-left: 100px;
 }
 /*===================
 Hero Area CSS
@@ -46,14 +49,12 @@ Hero Area CSS
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 31px;
+    grid-gap: 30px;
  }
-.player{
-    align-items: center;
-     width: 341px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
+.player{ 
+     align-items: center;
+     width: 330px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
   }
 .player-img{
     width: 300px;
@@ -75,6 +76,9 @@ Hero Area CSS
     font-size: 16px;
     color: #6C6C6C;
  }
+ /*===============
+ Footer Area CSS
+ ===============*/
 .main-footer{
     display: flex;
     justify-content: center;
