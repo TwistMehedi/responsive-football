@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
     width: 1000px;
     margin: 0 auto;
@@ -18,9 +21,9 @@ Header Area CSS
 .blog h1{
     color: #fff;
     font-size: 64px;
-    margin-left: 155px;
-    margin-top: 191px;
-     margin-bottom: 24px;
+    margin-left: 150px;
+    margin-top: 150px;
+     margin-bottom: 10px;
 }
 .blog a{
     color: #fff;margin-left: 155px;
